@@ -1,0 +1,15 @@
+Create a user model (with assignment specific details)
+create a card model (with assignment specific details)
+create a user_card join table model (user_id and card_id)
+
+
+Create form views for new users and new cards, make sure they save individually to the DB.
+
+Create sessionscontroller for User for logging in
+
+Upon creating a card, add it to a user's cards list (
+
+@card.save
+@current_user.cards << @card
+
+)
